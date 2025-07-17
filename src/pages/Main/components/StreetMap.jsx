@@ -25,11 +25,11 @@ const directionalLight = new DirectionalLight({
 // create lighting effect with light sources
 const lightingEffect = new LightingEffect({ambientLight});
 
-//https://raw.githubusercontent.com/belopot/public-assets/master/glb/house.glb
+//https://raw.githubusercontent.com/jacktoptal/public-assets/master/glb/house.glb
 //https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/BoxAnimated/glTF-Binary/BoxAnimated.glb
 
 const gltf = await load(
-  'https://raw.githubusercontent.com/belopot/public-assets/master/glb/house.glb',
+  'https://raw.githubusercontent.com/jacktoptal/public-assets/master/glb/house.glb',
   GLBLoader,
 );
 
@@ -50,7 +50,7 @@ export default function StreetMap() {
         : scenegraph;
     },
     scenegraph:
-      'https://raw.githubusercontent.com/belopot/public-assets/master/glb/house.glb',
+      'https://raw.githubusercontent.com/jacktoptal/public-assets/master/glb/house.glb',
     sizeScale: 1,
     // _animations: {
     //   '*': {speed: 5},
