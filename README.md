@@ -1,4 +1,4 @@
-# Toll Building Map
+# Building Map
 
 A sophisticated 3D mapping application built with React, Deck.gl, and Three.js that visualizes building models on interactive maps with multimedia content integration.
 
